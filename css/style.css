@@ -1,0 +1,252 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: "Hind", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    line-height: 26px;
+    display: block;
+    margin: 0px;
+    }
+  
+    h1 {
+    color: #000000;
+    font-size:40px;
+    font-weight:bold;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    }
+  
+    header{
+        background-color: #000000;
+    }
+    .footer{
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    }
+  
+    .contenido{
+        margin: 2%;
+    }
+  
+  /* MENÚ */ 
+  
+    .logo{
+        margin: auto 1rem auto auto;
+        float: right;
+    }
+  
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 10rem;
+        overflow: hidden;
+        background-color: #000000;
+      }
+      
+      li {
+        display: inline;
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        color: black;
+        background-color: rgb(245, 245, 245);
+      }
+      
+      .active {
+        background-color: #0300b1;
+      }
+  
+      /* CONTENIDO CAJA BLOG */
+  
+      * {
+        box-sizing: border-box;
+      }
+      
+      .blog-contenedor {
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        text-align: center;
+      }
+      
+      .blog-contenedor-left {
+        padding: 10px;
+        flex: 50%;
+      }
+      
+      .blog-contenedor-right {
+        padding: 10px;
+        flex: 50%;
+      }
+  
+      /* Contenido Blog */
+  
+      h2 {
+        color: #000000;
+        font-size:25px;
+        font-weight:bold;
+        margin: 5px auto 1px auto;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+        h2:hover{
+            color: #0400f3;
+            font-size:30px;
+            font-weight:bold;
+        }
+  
+    .bio-redactor{
+        font-size: small;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+    article{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: medium;
+            text-align: left;
+        }
+  
+    .botonblog {
+        background:linear-gradient(to bottom, #0300cf 5%, #0400f3 100%);
+        background-color:#0300b1;
+        border-radius:5px;
+        border:1px solid #020079;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:16px;
+        font-weight:bold;
+        padding:8px 22px;
+        text-decoration:none;
+        }
+  
+    .botonblog:hover {
+        background:linear-gradient(to bottom, #000000 5%, #474747 100%);
+        background-color:#000000;
+        }
+  
+    .botonblog:active {
+        position:relative;
+        top:1px;
+        }
+  
+    .imagen-destacada{
+        width: 100%;
+        height:auto;
+        }
+  
+    a:link { color: rgb(255, 255, 255); text-decoration: none;}          /* Enlaces no visitados */
+    a:visited { color: rgb(255, 255, 255); }     /* Enlaces visitados */
+    a:active { color: rgb(255, 255, 255); }        /* Enlaces activos */
+        
+  
+      /* TABLAS ACERCA DE CLASE */
+  
+      .estilotabla {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        .estilotabla td, .estilotabla th {
+          border: 2px solid #ddd;
+          padding: 8px;
+        }
+        
+        .estilotabla tr:nth-child(even){background-color: #94c3f8;}
+        
+        .estilotabla tr:hover {background-color: rgb(211, 211, 211);}
+        
+        .estilotabla th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: rgb(0, 87, 248);
+          color: rgb(179, 245, 220);
+        }
+  
+        /* FORMULARIO CONTACTO CLASE */
+  
+        input[type=text], select {
+          width: 100%;
+          padding: 10px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(138, 171, 243);
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: rgb(0, 87, 248);
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: rgb(0, 76, 218);
+        }
+        
+        .divformu {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+  
+        textarea{
+          width: 100%;
+          padding: 10px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(138, 171, 243);
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+  
+        #telefono {
+          width: 25%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(138, 171, 243);
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+  
+        #email {
+          width: 25%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(138, 171, 243);
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+  
+        #ciudad {
+          width: 25%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(138, 171, 243);
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
